@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\DataModel.csproj": {}
+    "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\DataModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\DataModel.csproj": {
+    "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\DataModel.csproj",
+        "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\DataModel.csproj",
         "packagesPath": "C:\\Users\\mayanka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\obj\\",
+        "outputPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

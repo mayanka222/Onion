@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UhP9OSgQf/rt6jVvMyYfpRUrUS+aPXUeQTKnvwNkLX4c/csrVmHTuj7XbywM/EeD1nHzkTVBKZh9Pvl/8lMf9w==",
+  "dgSpecHash": "R1nTj3CxuubwrbKvRIXhmCqZOofZZFazRfqUVNvSFxvRpOIl6f7x/1exsRQyWyyFfKh3TbAZ0/dnS9KkM1IeDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayanka\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.12\\microsoft.entityframeworkcore.5.0.12.nupkg.sha512",
     "C:\\Users\\mayanka\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.12\\microsoft.entityframeworkcore.abstractions.5.0.12.nupkg.sha512",

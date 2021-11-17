@@ -1,0 +1,6 @@
+2021-11-17T23:35:55.2816317+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-11-17T23:35:55.3058739+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2021-11-17T23:35:55.3059362+05:30  [INF] Content root path: "C:\Users\mayanka\Desktop\Pratice\Onion\Onionar" (b5d60022)
+2021-11-17T23:36:14.2599286+05:30 8000012a-000c-fb00-b63f-84710c7967bb [INF] Log Information to Debug Window! (824a485f)
+2021-11-17T23:36:14.5920542+05:30 8000012a-000c-fb00-b63f-84710c7967bb [WRN] Log Warning to Debug Window! (2f1d893d)
+2021-11-17T23:36:14.8706798+05:30 8000012a-000c-fb00-b63f-84710c7967bb [INF] My error (a3e1b752)

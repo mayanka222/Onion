@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\ViewModel\\ViewModel.csproj": {}
+    "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\ViewModel\\ViewModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\ViewModel\\ViewModel.csproj": {
+    "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\ViewModel\\ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\ViewModel\\ViewModel.csproj",
+        "projectUniqueName": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\ViewModel\\ViewModel.csproj",
         "projectName": "ViewModel",
-        "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\ViewModel\\ViewModel.csproj",
+        "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\ViewModel\\ViewModel.csproj",
         "packagesPath": "C:\\Users\\mayanka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\ViewModel\\obj\\",
+        "outputPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

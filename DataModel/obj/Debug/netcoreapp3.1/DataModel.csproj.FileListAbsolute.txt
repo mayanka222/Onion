@@ -16,3 +16,12 @@ C:\Users\mayanka\Desktop\Pratice\Onionar\DataModel\obj\Debug\netcoreapp3.1\DataM
 C:\Users\mayanka\Desktop\Pratice\Onionar\DataModel\obj\Debug\netcoreapp3.1\DataModel.csproj.CoreCompileInputs.cache
 C:\Users\mayanka\Desktop\Pratice\Onionar\DataModel\obj\Debug\netcoreapp3.1\DataModel.dll
 C:\Users\mayanka\Desktop\Pratice\Onionar\DataModel\obj\Debug\netcoreapp3.1\DataModel.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\bin\Debug\netcoreapp3.1\DataModel.deps.json
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\bin\Debug\netcoreapp3.1\DataModel.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\bin\Debug\netcoreapp3.1\DataModel.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\obj\Debug\netcoreapp3.1\DataModel.csproj.AssemblyReference.cache
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyInfoInputs.cache
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyInfo.cs
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\obj\Debug\netcoreapp3.1\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\obj\Debug\netcoreapp3.1\DataModel.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\DataModel\obj\Debug\netcoreapp3.1\DataModel.pdb

@@ -550,11 +550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\Entity\\Entity.csproj",
+      "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\mayanka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\Entity\\obj\\",
+      "outputPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -574,8 +574,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\DataModel.csproj": {
-              "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\DataModel.csproj"
+            "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\DataModel.csproj": {
+              "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\DataModel.csproj"
             }
           }
         }

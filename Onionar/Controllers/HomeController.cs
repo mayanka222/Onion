@@ -15,7 +15,6 @@ namespace Onionar.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IStudent _IStudent;
-
         public HomeController(ILogger<HomeController> logger, IStudent IStudent)
         {
             _logger = logger;
@@ -24,11 +23,11 @@ namespace Onionar.Controllers
 
         public IActionResult Index()
         {
-            _logger.LogTrace("this is error");
-            _logger.LogError("this is error");
-            _logger.LogCritical("this is error");
-            _logger.LogDebug("this is error");
-            
+            _logger.LogInformation("Log Information to Debug Window!");
+            _logger.LogWarning("Log Warning to Debug Window!");
+            _logger.LogInformation("My error");
+
+
             return View();
         }
         public IActionResult InputForm()

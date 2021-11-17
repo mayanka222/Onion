@@ -585,11 +585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\mayanka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -609,14 +609,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\DataModel.csproj": {
-              "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\DataModel\\DataModel.csproj"
+            "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\DataModel.csproj": {
+              "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\DataModel\\DataModel.csproj"
             },
-            "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\Entity\\Entity.csproj"
+            "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\Entity\\Entity.csproj"
             },
-            "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\ViewModel\\ViewModel.csproj": {
-              "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onionar\\ViewModel\\ViewModel.csproj"
+            "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\ViewModel\\ViewModel.csproj": {
+              "projectPath": "C:\\Users\\mayanka\\Desktop\\Pratice\\Onion\\ViewModel\\ViewModel.csproj"
             }
           }
         }
