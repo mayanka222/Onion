@@ -36,14 +36,12 @@
             Batch: $('#Batch').val(),
             RollNo: $('#RollNo').val()
         };
-        console.log(Obj);
         $.ajax({
             url: "/Home/InputFormDeatilsAjex",
             data: { model: Obj },
             type: "POST",
             success: function (result) {
-                alert("this is demo");
-                alert(result);
+                console.log(result);
             },
             error: function (errormessage) {
                 alert(errormessage.responseText);

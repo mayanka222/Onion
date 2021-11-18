@@ -70,10 +70,39 @@ namespace Onionar.Controllers
             return RedirectToAction("InputForm");
         }
         [HttpPost]
-        public IActionResult InputFormDeatilsAjex(VmStudent model)
+     
+        public JsonResult InputFormDeatilsAjex(VmStudent model)
         {
-            var x = 0;
-            return new JsonResult(x);
+            try
+            {
+                StudentDTO result = new StudentDTO();
+                
+                if (model != null)
+                {
+                    bool x = _IStudent.AddStudents(model);
+                    if (x == true)
+                    {
+                        TempData["msg"] = "Data Saved ";
+                        result.Message= "Data Saved ";
+                        result.Status = x;
+                    }
+                    else
+                    {
+                        TempData["msg"] = "Somethingn Error";
+                        result.Message = "Data Saved ";
+                        result.Status = x;
+                    }
+                }
+                    return new JsonResult(result);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+       
+            
         }
         public IActionResult InputFormDetails1(VmStudent obj)
         {
