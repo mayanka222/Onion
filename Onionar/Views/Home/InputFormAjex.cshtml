@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "InputFormAjex";
+}
+
+<h1>InputForm ajex </h1>
+
+<div>
+    <div class="row">
+
+        <div class="cols-sm-6">
+            Name   <input type="text" id="name" name="name" />
+        </div>
+        <div class="cols-sm-6">
+            Coures   <input type="text" id="Coures" name="Coures" />
+        </div>
+        <div class="cols-sm-6">
+            Batch    <input type="text" id="Batch" name="Batch" />
+        </div>
+        <div class="cols-sm-6">
+            Roll No    <input type="text" id="RollNo" name="RollNo" />
+        </div>
+        <div class="cols-sm-6">
+            <button onclick="Addstudent();">click me </button>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    function Addstudent() {
+        debugger;
+        var Obj = {
+            Name: $('#name').val(),
+            Coures: $('#Coures').val(),
+            Batch: $('#Batch').val(),
+            RollNo: $('#RollNo').val()
+        };
+        console.log(Obj);
+        $.ajax({
+            url: "/Home/InputFormDeatilsAjex",
+            data: { model: Obj },
+            type: "POST",
+            success: function (result) {
+                alert("this is demo");
+                alert(result);
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+</script>

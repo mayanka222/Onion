@@ -35,6 +35,10 @@ namespace Onionar.Controllers
             var x = _IStudent.Getlist();
             return View();
         }
+        public IActionResult InputFormAjex()
+        {
+            return View();
+        }
         /// <summary>
         /// Save Student Details 
         /// </summary>
@@ -64,6 +68,12 @@ namespace Onionar.Controllers
                 throw ex;
             }
             return RedirectToAction("InputForm");
+        }
+        [HttpPost]
+        public IActionResult InputFormDeatilsAjex(VmStudent model)
+        {
+            var x = 0;
+            return new JsonResult(x);
         }
         public IActionResult InputFormDetails1(VmStudent obj)
         {

@@ -493,3 +493,4 @@ C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\Serilog.F
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Razor\Views\Home\InputFormAjex.cshtml.g.cs
