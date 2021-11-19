@@ -1,4 +1,4 @@
-﻿
+﻿@model ViewModel.VmStudent;
 @{
     ViewData["Title"] = "InputForm";
 }
@@ -10,18 +10,22 @@
 
         <div class="cols-sm-6">
             Name   <input type="text" name="name" />
+            @Html.ValidationMessageFor(x => x.Name)
         </div>
         <div class="cols-sm-6">
             Coures   <input type="text" name="Coures" />
+            <span asp-validation-for="Coures" class="text-danger"></span>
         </div>
         <div class="cols-sm-6">
             Batch    <input type="text" name="Batch" />
+            <span asp-validation-for="Batch" class="text-danger"></span>
         </div>
         <div class="cols-sm-6">
             Roll No    <input type="text" name="RollNo" />
+            <span asp-validation-for="RollNo" class="text-danger"></span>
         </div>
         <div class="cols-sm-6">
-        <button>click me </button>
+            <button>click me </button>
         </div>
     </div>
 </form>

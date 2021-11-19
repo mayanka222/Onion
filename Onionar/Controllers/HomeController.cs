@@ -49,7 +49,7 @@ namespace Onionar.Controllers
         {
             try
             {
-                if(obj!=null)
+                if(ModelState.IsValid)
                 {
                 bool x= _IStudent.AddStudents(obj);
                     if(x==true)
@@ -60,20 +60,60 @@ namespace Onionar.Controllers
                     {
                         TempData["msg"] = "Something Error";
                     }
+                    return RedirectToAction("InputForm");
+                }
+                else
+                {
+                    return RedirectToAction("InputForm");
                 }
             }
+            
             catch (Exception ex )
             {
 
                 throw ex;
             }
-            return RedirectToAction("InputForm");
+            
         }
         [HttpPost]
-        public IActionResult InputFormDeatilsAjex(VmStudent model)
+
+        public JsonResult InputFormDeatilsAjex(VmStudent model)
         {
-            var x = 0;
-            return new JsonResult(x);
+            try
+            {
+                StudentDTO result = new StudentDTO();
+
+                if (model != null)
+                {
+                    bool x = _IStudent.AddStudents(model);
+                    if (x == true)
+                    {
+                        TempData["msg"] = "Data Saved ";
+                        result.Message = "Data Saved ";
+                        result.Status = x;
+                    }
+                    else
+                    {
+                        TempData["msg"] = "Somethingn Error";
+                        result.Message = "Data Saved ";
+                        result.Status = x;
+                    }
+                }
+                return new JsonResult(result);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+        }
+        public JsonResult Getlist()
+        {
+            var  result  = _IStudent.Getlist();
+            return new JsonResult(result);
         }
         public IActionResult InputFormDetails1(VmStudent obj)
         {
