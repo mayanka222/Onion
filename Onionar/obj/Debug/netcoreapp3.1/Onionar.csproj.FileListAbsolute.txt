@@ -494,3 +494,9 @@ C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\Serilog.S
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Razor\Views\Home\InputFormAjex.cshtml.g.cs
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

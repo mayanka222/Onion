@@ -27,16 +27,17 @@ namespace BAL.Service
          return _IStudentsRepository.Getlist();
         }
 
+        public IEnumerable<VmStudent> GetListbyStory()
+        {
+            return _IStudentsRepository.GetListbyStory();
+           
+        }
+
         int IStudent.Getcal(int no)
         {
-            
-       
             return _IStudentsRepository.Getcal(no);    
         }
-        //public IEnumerable<VmStudent> Getlist()
-        //{
        
-
-        //}
+    
     }
 }

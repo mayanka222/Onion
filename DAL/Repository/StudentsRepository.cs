@@ -3,6 +3,8 @@ using DataModel.DataModel;
 using Entity;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using ViewModel;
@@ -13,6 +15,7 @@ namespace DAL.Repository
     public class StudentsRepository : IStudentsRepository
     {
         private readonly ApplicationContext _ApplicationContext;
+        private SqlConnection con;
 
         public StudentsRepository(ApplicationContext ApplicationContext)
         {
@@ -55,6 +58,43 @@ namespace DAL.Repository
                 lst.Add(obj);
             }
             return lst;
+        }
+
+        public IEnumerable<VmStudent> GetListbyStory()
+        {
+            
+            
+       
+            SqlConnection con = new SqlConnection("Server=CHETUIWK1433\\SQL2017;Database=Db_Student;User Id=sa;password=Chetu@123;MultipleActiveResultSets=true");
+
+            SqlCommand cmd = new SqlCommand("Usd_GetList", con)
+            {
+                CommandType = CommandType.StoredProcedure
+                
+            };
+            SqlDataAdapter sd = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+
+            con.Open();
+            sd.Fill(dt);
+            con.Close();
+            List<VmStudent> lst = new List<VmStudent>();
+            foreach (DataRow dr in dt.Rows)
+            {
+                var model = new VmStudent
+                {
+                    ID =  Convert.ToInt32(dr["Id"]),
+                    Batch = Convert.ToInt32(dr["Batch"]),
+                    Coures = Convert.ToString(dr["Coures"]),
+                    Name = Convert.ToString(dr["Name"]),
+                    RollNo = Convert.ToString(dr["RollNo"])
+                };
+                lst.Add(model);
+
+            }
+            return lst;
+
+            //var empRecord = _ApplicationContext.StudentDetails.fr($ "RetrieveEmployeeRecord {id}").ToList(); 
         }
     }
 }

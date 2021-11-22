@@ -10,6 +10,7 @@ namespace DAL.Interface
 
         public int Getcal(int no);
         public IEnumerable<VmStudent> Getlist();
+        public IEnumerable<VmStudent> GetListbyStory();
         public bool AddStudents(VmStudent obj);
 
     }

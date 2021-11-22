@@ -10,5 +10,6 @@ namespace BAL.Interface
         public int  Getcal(int no);
         public IEnumerable<VmStudent> Getlist();
         public bool AddStudents(VmStudent obj);
+        public IEnumerable<VmStudent> GetListbyStory();
     }
 }

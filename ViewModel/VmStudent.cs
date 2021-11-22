@@ -8,7 +8,7 @@ namespace ViewModel
    public class VmStudent
     {
         [Key]
-        
+    
         public int ID { get; set; }
         [Required(ErrorMessage = "Please enter name")]
         public string Name { get; set; }

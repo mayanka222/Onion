@@ -39,6 +39,12 @@ namespace Onionar.Controllers
         {
             return View();
         }
+        public IActionResult GetListwithStoreProcedure ()
+        {
+            var x = _IStudent.GetListbyStory();
+            return View();
+        }
+
         /// <summary>
         /// Save Student Details 
         /// </summary>
