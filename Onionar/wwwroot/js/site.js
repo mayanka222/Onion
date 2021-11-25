@@ -3,10 +3,30 @@
 
 // Write your JavaScript code.
 
+//$(document).ready(function () {
+//    $('#MyTable').DataTable({
+//        columns: [
+//            { 'data': 'id' },
+//            { 'data': 'name' },
+//            { 'data': 'Coures' },
+//            { 'data': 'RollNo' },
+//            { 'data': 'Batch' },
+//        ],
+//        "scrollY": "550px",
+//        "scrollCollapse": true,
+//        "paging": true
+//    });
+//});
 $(document).ready(function () {
-        $('#MyTable').DataTable({
-            "scrollY": "550px",
-            "scrollCollapse": true,
-            "paging": true
-        })
-    })
+    $('#MyTable').DataTable({
+        columns: [
+        ],
+        columns: [
+            { 'data': 'id' },
+            { 'data': 'name' },
+            { 'data': 'Coures' },
+            { 'data': 'RollNo' },
+            { 'data': 'Batch' },
+        ]
+    });
+});

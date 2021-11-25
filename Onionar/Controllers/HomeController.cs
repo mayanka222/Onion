@@ -116,11 +116,11 @@ namespace Onionar.Controllers
 
 
         }
-        //public JsonResult Getlist()
-        //{
-        //    var  result  = _IStudent.Getlist();
-        //    return new JsonResult(result);
-        //}
+        public JsonResult getlistDetails()
+        {
+            var result = _IStudent.Getlist();
+            return new JsonResult(result);
+        }
         /// <summary>
         /// Get list 
         /// </summary>
