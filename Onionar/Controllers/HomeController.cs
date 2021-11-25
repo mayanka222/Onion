@@ -116,10 +116,21 @@ namespace Onionar.Controllers
 
 
         }
-        public JsonResult Getlist()
+        //public JsonResult Getlist()
+        //{
+        //    var  result  = _IStudent.Getlist();
+        //    return new JsonResult(result);
+        //}
+        /// <summary>
+        /// Get list 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult GetList()
         {
-            var  result  = _IStudent.Getlist();
-            return new JsonResult(result);
+            List<VmStudent> result = new List<VmStudent>();
+            result = (List<VmStudent>)_IStudent.Getlist();
+            return View(result);
         }
         public IActionResult InputFormDetails1(VmStudent obj)
         {

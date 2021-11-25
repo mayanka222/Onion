@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ViewModel.VmStudent>
+@{
+    ViewData["Title"] = "GetList";
+    int i = 0;
+}
+
+<h1>GetList</h1>
+@if (Model != null && Model.Count() > 1)
+{
+    <table id="MyTable" class="">
+        <thead>
+            <tr>Name</tr>
+            <tr>Coures</tr>
+            <tr>RollNo</tr>
+            <tr>Batch</tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                i++;
+                <tr>
+                    <td>@i</td>
+                    <td>@item.Name</td>
+                    <td>@item.Coures</td>
+                    <td>@item.RollNo</td>
+                    <td>@item.Batch</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <h1>No Data Found </h1>
+}
+

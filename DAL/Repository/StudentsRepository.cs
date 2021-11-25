@@ -54,7 +54,11 @@ namespace DAL.Repository
             foreach (var item in x)
             {
                 VmStudent obj = new VmStudent();
-                obj.ID = item.ID;   
+                obj.ID = item.ID;
+                obj.Name = item.Name;
+                obj.Batch = item.Batch;
+                obj.Coures = item.Coures;
+                obj.RollNo = item.RollNo;
                 lst.Add(obj);
             }
             return lst;
