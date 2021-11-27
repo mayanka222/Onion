@@ -1,0 +1,13 @@
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\bin\Debug\netcoreapp3.1\ModelClassConverter.deps.json
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\bin\Debug\netcoreapp3.1\ModelClassConverter.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\bin\Debug\netcoreapp3.1\ModelClassConverter.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\bin\Debug\netcoreapp3.1\DataModel.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\bin\Debug\netcoreapp3.1\ViewModel.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\bin\Debug\netcoreapp3.1\DataModel.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\bin\Debug\netcoreapp3.1\ViewModel.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.AssemblyInfoInputs.cache
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.AssemblyInfo.cs
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.csproj.CoreCompileInputs.cache
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.csproj.CopyComplete
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.pdb

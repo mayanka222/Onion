@@ -1,4 +1,5 @@
-﻿using DataModel.DataModel;
+﻿using DataModel;
+using DataModel.DataModel;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,5 +13,6 @@ namespace Entity
         {
         }
         public DbSet<StudentDetails> StudentDetails { get; set; }
+        public DbSet<Userdetails> Userdetails { get; set; }
     }
 }

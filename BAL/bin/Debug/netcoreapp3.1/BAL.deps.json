@@ -233,6 +233,7 @@
         "dependencies": {
           "DataModel": "1.0.0",
           "Entity": "1.0.0",
+          "ModelClassConverter": "1.0.0",
           "System.Data.SqlClient": "4.8.3",
           "ViewModel": "1.0.0"
         },
@@ -252,6 +253,15 @@
         },
         "runtime": {
           "Entity.dll": {}
+        }
+      },
+      "ModelClassConverter/1.0.0": {
+        "dependencies": {
+          "DataModel": "1.0.0",
+          "ViewModel": "1.0.0"
+        },
+        "runtime": {
+          "ModelClassConverter.dll": {}
         }
       },
       "ViewModel/1.0.0": {
@@ -439,6 +449,11 @@
       "sha512": ""
     },
     "Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelClassConverter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

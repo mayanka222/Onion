@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BAL", "BAL\BAL.csproj", "{6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{D1CCACA5-D553-4824-9870-C38F28C18E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{EF4C951D-B0AB-4AAD-AB33-922BD1325451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{EF4C951D-B0AB-4AAD-AB33-922BD1325451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{C326C289-9EF8-46E6-AFC6-6029DEE2C786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModel", "DataModel\DataModel.csproj", "{C326C289-9EF8-46E6-AFC6-6029DEE2C786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelClassConverter", "ModelClassConverter\ModelClassConverter.csproj", "{4074B4F6-FDFF-48ED-839B-1B739C10E5B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C326C289-9EF8-46E6-AFC6-6029DEE2C786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C326C289-9EF8-46E6-AFC6-6029DEE2C786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C326C289-9EF8-46E6-AFC6-6029DEE2C786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4074B4F6-FDFF-48ED-839B-1B739C10E5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4074B4F6-FDFF-48ED-839B-1B739C10E5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4074B4F6-FDFF-48ED-839B-1B739C10E5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4074B4F6-FDFF-48ED-839B-1B739C10E5B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

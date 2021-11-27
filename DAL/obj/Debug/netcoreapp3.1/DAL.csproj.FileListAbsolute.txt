@@ -46,3 +46,5 @@ C:\Users\mayanka\Desktop\Pratice\Onion\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.Co
 C:\Users\mayanka\Desktop\Pratice\Onion\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
 C:\Users\mayanka\Desktop\Pratice\Onion\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\DAL\bin\Debug\netcoreapp3.1\ModelClassConverter.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\DAL\bin\Debug\netcoreapp3.1\ModelClassConverter.pdb

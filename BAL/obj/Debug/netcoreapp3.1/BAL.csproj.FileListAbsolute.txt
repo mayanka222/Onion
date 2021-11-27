@@ -52,3 +52,5 @@ C:\Users\mayanka\Desktop\Pratice\Onion\BAL\obj\Debug\netcoreapp3.1\BAL.csproj.Co
 C:\Users\mayanka\Desktop\Pratice\Onion\BAL\obj\Debug\netcoreapp3.1\BAL.csproj.CopyComplete
 C:\Users\mayanka\Desktop\Pratice\Onion\BAL\obj\Debug\netcoreapp3.1\BAL.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\BAL\obj\Debug\netcoreapp3.1\BAL.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\BAL\bin\Debug\netcoreapp3.1\ModelClassConverter.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\BAL\bin\Debug\netcoreapp3.1\ModelClassConverter.pdb

@@ -2909,6 +2909,7 @@
         "dependencies": {
           "DataModel": "1.0.0",
           "Entity": "1.0.0",
+          "ModelClassConverter": "1.0.0",
           "System.Data.SqlClient": "4.8.3",
           "ViewModel": "1.0.0"
         },
@@ -2941,6 +2942,20 @@
         },
         "runtime": {
           "bin/placeholder/Entity.dll": {}
+        }
+      },
+      "ModelClassConverter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataModel": "1.0.0",
+          "ViewModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ModelClassConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelClassConverter.dll": {}
         }
       },
       "ViewModel/1.0.0": {
@@ -9410,6 +9425,11 @@
       "type": "project",
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
+    },
+    "ModelClassConverter/1.0.0": {
+      "type": "project",
+      "path": "../ModelClassConverter/ModelClassConverter.csproj",
+      "msbuildProject": "../ModelClassConverter/ModelClassConverter.csproj"
     },
     "ViewModel/1.0.0": {
       "type": "project",

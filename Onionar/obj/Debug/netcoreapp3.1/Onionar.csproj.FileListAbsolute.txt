@@ -501,3 +501,7 @@ C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\runtimes\
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetList.cshtml.g.cs
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Razor\Views\Login\Registration.cshtml.g.cs
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\ModelClassConverter.dll
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\ModelClassConverter.pdb

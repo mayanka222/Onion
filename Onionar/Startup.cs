@@ -17,6 +17,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using ModelClassConverter;
 
 namespace Onionar
 {
@@ -38,9 +39,13 @@ namespace Onionar
             services.AddControllersWithViews();
             services.AddScoped<IStudent,Student>();
             services.AddScoped<IStudentsRepository, StudentsRepository>();
+            services.AddScoped<ILogin, Login>();
+            services.AddScoped<ILoginRepository,LoginRepository>();
+            services.AddScoped<DataModelConvertToViewModel>();
+            services.AddScoped<ViewModelConvertToDataModel>();
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DataContext")));
             services.AddLogging();
-         
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

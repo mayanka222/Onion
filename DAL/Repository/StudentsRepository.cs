@@ -1,6 +1,7 @@
 ﻿using DAL.Interface;
 using DataModel.DataModel;
 using Entity;
+using ModelClassConverter;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -15,10 +16,12 @@ namespace DAL.Repository
     public class StudentsRepository : IStudentsRepository
     {
         private readonly ApplicationContext _ApplicationContext;
+        private readonly DataModelConvertToViewModel _DataModelConvertToViewModel;
         private SqlConnection con;
 
-        public StudentsRepository(ApplicationContext ApplicationContext)
+        public StudentsRepository(ApplicationContext ApplicationContext , DataModelConvertToViewModel DataModelConvertToViewModel)
         {
+            _DataModelConvertToViewModel = DataModelConvertToViewModel;
             _ApplicationContext = ApplicationContext;
         }
 
@@ -94,11 +97,8 @@ namespace DAL.Repository
                     RollNo = Convert.ToString(dr["RollNo"])
                 };
                 lst.Add(model);
-
             }
             return lst;
-
-            //var empRecord = _ApplicationContext.StudentDetails.fr($ "RetrieveEmployeeRecord {id}").ToList(); 
         }
     }
 }
