@@ -44,6 +44,22 @@ namespace DAL.Repository
             }
         }
 
+        public bool DeleteStudentByid(int id)
+        {
+            StudentDetails obj = _ApplicationContext.StudentDetails.Where(a => a.ID == id).FirstOrDefault();
+            if(obj!=null)
+            {
+                _ApplicationContext.Remove(obj);
+                _ApplicationContext.SaveChanges();
+                return true;
+            }
+            else
+            {
+                return false;
+
+            }
+        }
+
         public int Getcal(int no)
         {
             throw new NotImplementedException();

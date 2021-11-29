@@ -11,3 +11,4 @@ C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3
 C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.csproj.CopyComplete
 C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\ModelClassConverter\obj\Debug\netcoreapp3.1\ModelClassConverter.csproj.AssemblyReference.cache

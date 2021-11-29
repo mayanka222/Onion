@@ -22,6 +22,11 @@ namespace BAL.Service
 
         }
 
+        public bool DeleteStudentByid(int id)
+        {
+           return _IStudentsRepository.DeleteStudentByid(id);
+        }
+
         public IEnumerable<VmStudent> Getlist()
         {
          return _IStudentsRepository.Getlist();
@@ -37,6 +42,7 @@ namespace BAL.Service
         {
             return _IStudentsRepository.Getcal(no);    
         }
+       
        
     
     }

@@ -18,8 +18,7 @@ namespace ModelClassConverter
             ob2.RollNo = obj.RollNo;
             return ob2;
         }
-
-        public Userdetails VmUserdetailstoUserdetailst(VMUserDetails obj)
+        public Userdetails VmUserdetailstoUserdetailst  (VMUserDetails obj)
         {
             Userdetails UserData = new Userdetails();
             UserData.Email = obj.Email;

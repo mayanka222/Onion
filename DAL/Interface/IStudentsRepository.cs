@@ -12,6 +12,7 @@ namespace DAL.Interface
         public IEnumerable<VmStudent> Getlist();
         public IEnumerable<VmStudent> GetListbyStory();
         public bool AddStudents(VmStudent obj);
+        public bool DeleteStudentByid(int id);
 
     }
 }

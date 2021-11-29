@@ -11,5 +11,6 @@ namespace BAL.Interface
         public IEnumerable<VmStudent> Getlist();
         public bool AddStudents(VmStudent obj);
         public IEnumerable<VmStudent> GetListbyStory();
+        public bool DeleteStudentByid(int id);
     }
 }

@@ -4,6 +4,11 @@
     int i = 0;
 }
 
+@if(TempData["msg"]!=null)
+            {
+                <h1>@TempData["msg"]</h1>
+            }
+
 <h1>GetList</h1>
 @if (Model != null && Model.Count() > 1)
 {
@@ -13,6 +18,7 @@
             <tr>Coures</tr>
             <tr>RollNo</tr>
             <tr>Batch</tr>
+            <tr>Action</tr>
         </thead>
 
         <tbody>
@@ -25,6 +31,7 @@
                     <td>@item.Coures</td>
                     <td>@item.RollNo</td>
                     <td>@item.Batch</td>
+                    <td><a class="btn btn-danger" href="/home/deleteStudentByid?id=@item.ID">Delete</a></td>
                 </tr>
             }
 

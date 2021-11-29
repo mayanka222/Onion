@@ -141,6 +141,28 @@ namespace Onionar.Controllers
         {
             return View();
         }
+     
+        public IActionResult DeleteStudentByid(int id)
+        {
+            try
+            {
+                bool staus = _IStudent.DeleteStudentByid(id);
+                if (staus == true)
+                {
+                    TempData["msg"] = "Data Delete";
+                }
+                else
+                {
+                    TempData["msg"] = "Something Wrong ";
+                }
+                return Redirect("GetList");
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+          
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

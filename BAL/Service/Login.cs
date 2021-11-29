@@ -17,7 +17,7 @@ namespace BAL.Service
         public VMUserDetails LoginDetails(VMUserDetails obj)
         {
             return _ILoginRepository.LoginDetails(obj);
-         
+      
         }
         public VMUserDetails Registration (VMUserDetails obj)
         {
