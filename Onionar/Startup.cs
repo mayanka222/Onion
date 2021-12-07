@@ -37,21 +37,27 @@ namespace Onionar
         {
             var configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json", false).Build();
             services.AddControllersWithViews();
-            services.AddScoped<IStudent,Student>();
+            services.AddScoped<IStudent, Student>();
             services.AddScoped<IStudentsRepository, StudentsRepository>();
             services.AddScoped<ILogin, Login>();
-            services.AddScoped<ILoginRepository,LoginRepository>();
+            services.AddScoped<ILoginRepository, LoginRepository>();
             services.AddScoped<DataModelConvertToViewModel>();
             services.AddScoped<ViewModelConvertToDataModel>();
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DataContext")));
             services.AddLogging();
-
+            services.AddDistributedMemoryCache();
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);//We set Time here 
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
-                        var path = Directory.GetCurrentDirectory();
+            var path = Directory.GetCurrentDirectory();
             loggerFactory.AddFile($"{path}\\logs\\log.txt");
             //loggerFactory.AddFile
 
@@ -59,7 +65,7 @@ namespace Onionar
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                
+
             }
             else
             {
@@ -67,7 +73,8 @@ namespace Onionar
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-           
+        
+            app.UseSession();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
