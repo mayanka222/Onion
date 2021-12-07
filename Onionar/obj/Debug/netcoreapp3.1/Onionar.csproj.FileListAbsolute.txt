@@ -505,3 +505,5 @@ C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Razor\Vie
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Razor\Views\Login\Registration.cshtml.g.cs
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\ModelClassConverter.dll
 C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\bin\Debug\netcoreapp3.1\ModelClassConverter.pdb
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Onionar.Resource.resources
+C:\Users\mayanka\Desktop\Pratice\Onion\Onionar\obj\Debug\netcoreapp3.1\Onionar.csproj.GenerateResource.cache

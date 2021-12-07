@@ -8,6 +8,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using ViewModel;
+using System.Resources;
+using System.Reflection;
 
 namespace Onionar.Controllers
 {
@@ -15,6 +17,8 @@ namespace Onionar.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IStudent _IStudent;
+        ResourceManager rm = new ResourceManager("Onionar.Resource",
+        Assembly.GetExecutingAssembly());
         public HomeController(ILogger<HomeController> logger, IStudent IStudent)
         {
             _logger = logger;
@@ -60,7 +64,8 @@ namespace Onionar.Controllers
                 bool x= _IStudent.AddStudents(obj);
                     if(x==true)
                     {
-                        TempData["msg"] = "Data Saved ";
+                        TempData["msg"] = rm.GetString("DataSaved");
+                        //TempData["msg"] = "Data Saved ";
                     }
                     else
                     {
@@ -94,6 +99,7 @@ namespace Onionar.Controllers
                     bool x = _IStudent.AddStudents(model);
                     if (x == true)
                     {
+                        TempData["msg"] = rm.GetString("DataSaved");
                         TempData["msg"] = "Data Saved ";
                         result.Message = "Data Saved ";
                         result.Status = x;
